@@ -7,7 +7,6 @@
 
 body{
     margin:0;
-    /*font-family: "Shadows Into Light", cursive;*/
     font-family: "Lobster", sans-serif;
     
     
@@ -17,7 +16,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     height:100px;
-    background-color: rgba(255, 255, 255, 0); /* para deixar transparente*/
+    background-color: rgba(255, 255, 255, 0);
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -30,7 +29,6 @@ body{
 .logo{
     flex:20%;
     margin-left:10% ;
-    /* border: 1px solid red;   tinha uma borda para treinamento*/
     text-align: left;
 }
 
@@ -40,7 +38,7 @@ body{
     color:rgb(223, 207, 236);
     font-size: 50px;
 }
-     /*border: 1px solid red; tinha uma borda para treinamento*/
+     
 
 .menu{
     flex:60%;
@@ -74,7 +72,7 @@ body{
     border: none;
     background:#f7690a;
 }
-/*para deixar o naav e head transparente para passar a animaçãp*/
+
 .header{
     display: flex;
     flex-flow: row wrap;
@@ -88,7 +86,7 @@ body{
 .headline{
     margin-left: 10%;
     flex:40%;
-    /*border: 1px solid black;*/
+    
 }
 
 .headline h2{
@@ -100,14 +98,19 @@ body{
 }
 
 .headline p{
-     color:rgb(240, 236, 243) ;
-     text-align:left;
+    font-weight: 90;
+    font-size: 20px;
+    color:#180f4a ;
+    text-align:left;  
+    font-family: "Times New Roman", "Georgia", serif;
+
+     
 }
 
 .contact-btn{
     display: inline-block;
     background: rgb(131, 12, 228);
-    padding: 20px;
+    padding: 15px;
     color: white;
     text-transform: none ;
     border-radius: 4px;
@@ -123,7 +126,7 @@ body{
 .img-headline{
     margin-right: 10%;
     flex:40%;
-    /*border:1px solid deeppink ;*/
+    
     text-align: center;
 }
 
@@ -138,7 +141,7 @@ section{
     text-align: center;
     /*width: 90%;*/
 }
-    /* O que podemos fazer pelo seu surf ? */
+    
 section h2{
     width: 100%;
     font-size: 50px;
@@ -147,7 +150,7 @@ section h2{
     font-weight: bold;
     color: rgb(45, 6, 85);
 }
-/*flex box, os card do plano, estrutores e professores*/
+
 .servicos{
     display: inline-block;
     margin-top: 5%;
@@ -161,14 +164,17 @@ section h2{
     border: 2px solid #eacdf0;
     border-radius: 10px;
     cursor: pointer;
-    color: rgb(5, 5, 5);
+    color: #180f4a;
+    font-family: "Times New Roman", "Georgia", serif;
+    font-weight: 90;  /*tamnho da letra */
+    font-size: 20px;
     
 }
 
 .texto-oculto{
     display: none;
 }
-/* ao passar o mouse */
+
 .card:hover{
     /*background: #ff9029;*/
     color: rgb(250, 246, 246);
@@ -188,7 +194,7 @@ section h2{
     display:block;
 }
 
-/* parte de baixo acabamento do site */
+
 footer{
     margin-top: 100px;
     height: 400px;
@@ -214,17 +220,17 @@ footer{
     right: 10px;
     
 }
-    /* Esse codigo de animação de fundo na pagina  reflete no arquivo pacotes.html local.html e index.hmtl*/
+    
 
     #video-fundo {
-    position: fixed; /*Faz com que o vídeo fique fixo no fundo, mesmo ao rolar a página.*/
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;  /*Faz com que o vídeo cubra toda a tela, sem distorcer a proporção.*/
-    z-index: -1;  /*coloca o video atras do momentario*/
-    opacity: 0.8; /* opcional, para suavizar o vídeo */
+    object-fit: cover;  
+    z-index: -1;  
+    opacity: 0.8; 
   }
   
   body {
