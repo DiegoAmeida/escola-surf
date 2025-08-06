@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um site de exemplo do modulo de CSS">
+    <meta name="Keywords" content="Agencia Digital, CSS, HTML">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <title>Estrutura de Aula</title>
+
+    <style>
+       body {
+            background-image: url('img/roupa.jpg'); 
+            background-size: cover;                       
+            background-position: center;                 
+            background-attachment: fixed;             
+            margin: 0;
+            padding: 0;
+            height: 100vh;                                
+        } 
+
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+      padding: 20px;
+    } */
+
+    header {
+      background-color: rgb(142, 211, 243);
+      color: #2f4e5f;
+      padding: 10px 10px;
+      text-align: center;
+      border-radius: 10px;
+      max-width: 2000px;
+      margin: 0 auto 30px auto;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    section {
+  width: 80%;
+  margin-left:10%;
+  background: rgb(213, 240, 247);
+  padding: 25px;
+  border-radius: 0;
+  box-shadow: none;
+  border-radius: 10px;
+  
+}
+section h2,
+section p {
+  font-family: 'Poppins', sans-serif;
+}
+
+section h2 {
+  font-weight: 400;
+  color: #2f4e5f;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+section p {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+
+    .etapa {
+      margin-bottom: 30px;
+    }
+
+    .etapa img {
+      width: 40%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    h2 {
+      color: #0077b6;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input, form textarea, form button {
+      margin: 10px 0;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background-color: #0077b6;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    form button:hover {
+      background-color: #005f8a;
+    }
+
+    .depoimentos blockquote {
+      border-left: 4px solid #0077b6;
+      padding-left: 10px;
+      margin: 15px 0;
+      font-style: italic;
+      background-color: #f0f8ff;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .btn-voltar {
+  display: block;
+  margin: 30px auto 0 auto;
+  padding: 10px 20px;
+  background-color: #023e8a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-align: center;
+  width: fit-content;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.btn-voltar:hover {
+  background-color: #101312;
+  
+}
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: rgb(14, 6, 6);
+      font-size: 1.5rem;
+      max-width: 1000px;
+      margin: 30px auto 0 auto;
+      
+    }
+
+    
+
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+
+
+
+
+
+
+      /*teste para slides de fotos*/
+    
+
+      
+}
+
+
+
+
+    </style>
+</head>
+
+
+
+<body>
+    
+    <!--/*<body style="background-image: url('img/garota.jpg'); background-size: cover; background-position: center;">-->
+
+    <!-- <nav class="navbar">
+        <div class="logo">
+            <h1>Agencia Surf</h1>
+        </div>
+        <div class="menu">
+            
+
+            <a href="home.html">Home</a>
+            <a href="sobre.html">Sobre o Surf</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="local.html">Local</a>
+            <a href="video.html">Videos</a>
+            <a  id="botao" href="fale.html">Fale Conosco</a>
+        </div>
+    </nav>
+ -->
+    <header>
+        <h1>Nossos Equipamentos</h1>
+        <p>Os equipamentos essenciais para a prática do surf incluem a prancha, o leash, a parafina e a roupa de neoprene, ou rashguard, dependendo da temperatura da água.</p>
+      </header>
+    
+      <section>
+    
+        <div class="etapa">
+          <h2>1. Prancha de surf</h2>
+          <p>Uma prancha de surf é uma plataforma alongada e leve, projetada para que um surfista deslize sobre as ondas. É um equipamento essencial para a prática do esporte, permitindo que o praticante se posicione em pé e aproveite a força da onda. As pranchas variam em tamanho, formato e material, atendendo a diferentes estilos e níveis de habilidade de surf. Escolher a prancha de surf certa depende do seu nível de habilidade, do tipo de onda que você pretende surfar e do seu estilo pessoal.   </p>
+          <img src="img/pranchaa.jpg" alt="Recepção na praia">
+          <img src="img/pranchab.jpg" alt="Recepção na praia">
+        
+         
+        </div>
+        
+
+    
+        <div class="etapa">
+          <h2>2. Leash</h2>
+          <p>O leash, cordinha, strep ou estrepe de surfe, é um elemento muito importante do seu equipamento.Popularmente chamado de cordinha, estrepe ou leash, é um acessório extremamente importante para prática do surf. É o item de segurança que o deixa preso na prancha, e garante que você não perca sua prancha dentro da água. Os leashes de surf são acessórios essenciais para garantir a segurança e o controle durante a prática desse esporte aquático. Com a função de manter a prancha.   </p>
+          <img src="img/leasha.jpg" alt="Aquecimento antes do surf">
+          <img src="img/leashf.jpg" alt="Aquecimento antes do surf">
+          
+        </div>
+    
+        <div class="etapa">
+          <h2>3. Parafina</h2>
+          <p>Na prática, ela proporciona aderência e tração para os pés na prancha de surf. Ela também impede que você deslize para fora da prancha enquanto rema para em direção às ondas. Como o nome sugere, a parafina para prancha de surf é feita principalmente de cera de abelha e parafina. A parafina de surf geralmente é feita de cera de petróleo ou cera vegetal e vem em tabletes, que podem ter diferentes formulações para se adequar às diferentes temperaturas da água.   </p>
+          <img src="img/parafinab.jpg" alt="Aula teórica na areia">
+          <img src="img/parafinad.webp" alt="Aula teórica na areia">
+        </div>
+    
+        <div class="etapa">
+          <h2>4. Roupa de Neoprene (Wetsuit)</h2>
+          <p>A roupa de neoprene, também conhecida como wetsuit, é uma peça de vestuário essencial para a prática do surf, especialmente em águas mais frias. Ela serve para proteger o corpo do surfista do frio, isolando-o termicamente e mantendo a temperatura corporal, além de oferecer proteção contra atritos com corais, rochas e a própria prancha. O neoprene é um tipo de borracha sintética, flexível e impermeável, que proporciona isolamento térmico e proteção contra impactos. Ele é o material principal utilizado na fabricação de wetsuits, permitindo que o surfista possa ficar mais tempo na água com conforto e segurança.  
+        </p>
+          <img src="img/roupa.jpg" alt="Surf na prática">
+          <img src="img/roupac.jpg" alt="Surf na prática">
+        </div>
+    
+        <div class="etapa">
+          <h2>5. Deck de prancha</h2>
+          <p>O deck de surf tem a função de evitar que o surfista escorregue da prancha, especialmente durante manobras mais agressivas. Um bom deck não apenas garante maior segurança, mas também aumenta a confiança do surfista ao executar movimentos mais desafiadores. Os decks de surf são um equipamento para pranchas de surf, com o objetivo de funcionar como uma superfície antiderrapante mesmo dentro da água! Aumentando a performance dentro do esporte do surf, dando segurança ao atleta para as manobras mais complexas.  </p>
+          <img src="img/deck.jpg" alt="Feedback e encerramento">
+          <img src="img/decka.jpg" alt="Feedback e encerramento">
+        </div>
+    
+        <!--<h2>Depoimentos de Estrutores</h2>
+        <div class="depoimentos">
+          <blockquote>"Melhor aula da minha vida! Equipe atenciosa e muito profissional." – Lucas R.</blockquote>
+          <blockquote>"Me senti segura o tempo todo. Já estou na terceira aula!" – Fernanda A.</blockquote>
+        </div>-->
+    
+        <h2>Inscreva-se para sua aula</h2>
+        <form action="#" method="post">
+          <input type="text" name="nome" placeholder="Seu nome" required>
+          <input type="email" name="email" placeholder="Seu e-mail" required>
+          <input type="tel" name="telefone" placeholder="Telefone / WhatsApp" required>
+          <textarea name="mensagem" rows="4" placeholder="Mensagem (opcional)"></textarea>
+          <button type="submit">Enviar Inscrição</button>
+        </form>
+    
+        <h2>Onde Estamos</h2>
+        <p>Estamos localizados em uma das melhores praias para iniciantes e experientes. Veja no mapa abaixo:</p>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16527.085272843015!2d-38.54593598614347!3d-3.715807180367178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749b636c34903%3A0x2643f51f63c8fb95!2sPraia%20da%20Leste!5e1!3m2!1spt-BR!2sbr!4v1753058967839!5m2!1spt-BR!2sbr" 
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+        <br>
+        <br>
+        <a href="index.html" class="btn-voltar">← Voltar ao início</a>
+
+    
+      </section>
+    
+      <footer>
+        © 2025 Escola de Surf | Todos os direitos reservados
+      </footer>
+       
+      
+        
+        
+    
+</body>
+</html>

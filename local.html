@@ -11,6 +11,32 @@
     <title>Nosso Local</title>
     <style>
       
+      body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f7fa;
+            /*background-image: url('img/garotasol.jpg');*/
+           
+            background-size: cover;                       
+            background-position: center;                 
+            background-attachment: fixed;          
+            margin: 0;
+            padding: 0;
+            height: 100vh;                                
+        } 
+        .navbar{
+            font-family: "Lobster", sans-serif;
+            display: flex;
+            flex-flow: row wrap;
+            height:100px;
+            background-color: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            bottom: 91%;
+    }
+    
+     
 
       .conteudo {
           max-width: 1000px;
@@ -65,15 +91,16 @@
 </head>
 
 <body>
-  <video autoplay muted loop id="video-fundo">
+    
+  <!--<video autoplay muted loop id="video-fundo">
     <source src="video/sol.mp4" type="video/mp4">
-  </video>
+  </video>-->
   
 
   
   <nav class="navbar">
     <div class="logo">
-        <!--<h1>Agencia Surf</h1>-->
+        <h1>Agencia Surf</h1>
     </div>
     <div class="menu">
         
@@ -110,13 +137,14 @@
   </ul>
 
   <h2>Veja no mapa:</h2>
-
+  <!-- Substitua o link abaixo por sua localização real no Google Maps, se quiser -->
   <iframe 
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16527.085272843015!2d-38.54593598614347!3d-3.715807180367178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749b636c34903%3A0x2643f51f63c8fb95!2sPraia%20da%20Leste!5e1!3m2!1spt-BR!2sbr!4v1753058967839!5m2!1spt-BR!2sbr" 
       class="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
   </iframe>
 
-  
+  <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16527.085272843015!2d-38.54593598614347!3d-3.715807180367178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749b636c34903%3A0x2643f51f63c8fb95!2sPraia%20da%20Leste!5e1!3m2!1spt-BR!2sbr!4v1753058967839!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+
   <h2>Estrutura no local:</h2>
   <ul>
       <li>Área coberta com vista para o mar</li>
